@@ -29,6 +29,12 @@ chmod +x sep.py
 
 The script puts the content of the article in a sigle file named out.html. Is html raw without header or body content, only the \<div\> section with the article alone.
 
+### Example:
+
+python sep.py https://plato.stanford.edu/entries/descartes/
+
+pandoc -t latex --latex-engine=xelatex -f html -o Descartes.pdf out.html
+
 ## What I cand do with this?
 
 You can convert the html file to other formats vìa <b>pandoc</b>. Nice results with pdf latex output format. If you can't convert use xelatex engine.
