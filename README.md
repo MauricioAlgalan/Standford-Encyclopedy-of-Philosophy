@@ -19,7 +19,7 @@ python sep.py \<standford entry link\>
 
 ### Whit name only:
 
-If you use a *\*nix sistem* make executable and ruin it.
+If you use a *\*nix system* make executable and ruin it.
 
 chmod +x sep.py
 
