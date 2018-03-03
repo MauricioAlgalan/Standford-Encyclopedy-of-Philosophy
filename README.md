@@ -17,6 +17,14 @@ lxml with html
 
 python sep.py \<standford entry link\>
 
+### Whit name only:
+
+If you use a * \*nix sistem* make executable and ruin it.
+
+chmod +x sep.py
+
+./sep.py \<standford entry link\>
+
 ## Results:
 
 The script puts the content of the article in a sigle file named out.html. Is html raw without header or body content, only the \<div\> section with the article alone.
