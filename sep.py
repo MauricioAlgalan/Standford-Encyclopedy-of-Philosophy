@@ -27,7 +27,7 @@ def sep(pagina=''):
         try:
             if links.attrib["href"].startswith('#'):
                 continue
-            links.attrib["href"]=urlparse.urljoin('https://plato.stanford.edu/entries/pythagoreanism/',links.attrib["href"])
+            links.attrib["href"]=urlparse.urljoin(base,links.attrib["href"])
         except:
             continue
     archivo=open('out.html','w')
