@@ -1,4 +1,6 @@
-# Standford-Encyclopedy-of-Philosophy
+# Standford Encyclopedia of Philosopfy scraper
+
+Scrap SEP entry
 
 Download the article content of a entry in SEP with link of the entry
 
